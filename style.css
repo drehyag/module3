@@ -27,14 +27,14 @@ h1 {
     margin-top: 0;
 }
 
-/* Only apply tall-section styles to desktop */
+
 @media (min-width: 992px) {
     .tall-section {
-        height: 1000px; /* Tall enough to require scrolling */
+        height: 1000px; 
     }
 }
 
-/* Styles for the mobile menu dropdown */
+
 .navbar-toggle {
     margin: 0;
     padding: 9px 10px;
@@ -52,7 +52,7 @@ h1 {
     }
 }
 
-/* Hide the dropdown menu in larger screens */
+
 .hidden-md.hidden-lg {
     display: none;
 }
@@ -63,12 +63,12 @@ h1 {
     }
 }
 
-/* Ensure the dropdown menu takes full width on small screens */
+
 .navbar-nav {
     width: 100%;
 }
 
-/* Menu items style on small screens */
+
 .navbar-nav>li>a {
     padding-top: 10px;
     padding-bottom: 10px;
